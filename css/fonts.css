@@ -1,18 +1,18 @@
 @font-face {
     font-family: 'Kanit';
     src: url('../fonts/Kanit-Light.ttf');
-    src: url('../fonts/Kanit-Medium.ttf') format('woff2'),
-         url('../fonts/Kanit-ExtraLight.ttf'),
+    src: url('../fonts/Kanit-Medium.ttf') format('embedded-opentype'),
+         url('../fonts/Kanit-ExtraLight.ttf') format('woff2'),
          url('../fonts/Kanit-ExtraLightItalic.ttf'),
-         url('../fonts/Kanit-Black.ttf'),
-         url('../fonts/Kanit-LightItalic.ttf');
+         url('../fonts/Kanit-Black.ttf') format('woff'),
+         url('../fonts/Kanit-LightItalic.ttf') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
-/* .kanit {
+.kanit {
     font-family: "Kanit", kanit;
     font-optical-sizing: auto;
     font-weight: 100;
     font-style: normal;
-  } */
+  }

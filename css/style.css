@@ -218,6 +218,8 @@
     flex-direction: column;
 }
 .text-disc {
+    max-width: 1179px;
+    width: 90%;
     font-size: 24px;
     font-weight: 400;
     margin-left: 27px;   

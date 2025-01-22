@@ -1,24 +1,18 @@
 @font-face {
     font-family: 'Kanit';
-    src: url('../fonts/Kanit-Black.ttf');
-    src: url('../fonts/Kanit-BlackItalic.ttf') format('embedded-opentype'),
-        url('../fonts/Kanit-Bold.ttf') format('woff2'),
-        url('../fonts/Kanit-BoldItalic.ttf') format('woff'),
-        url('../fonts/Kanit-ExtraBold.ttf') format('svg'),
-        url('../fonts/Kanit-ExtraBoldItalic.ttf'),
-        url('../fonts/Kanit-ExtraLight.ttf'),
-        url('../fonts/Kanit-ExtraLightItalic.ttf'),
-        url('../fonts/Kanit-Italic.ttf'),
-        url('../fonts/Kanit-Light.ttf'),
-        url('../fonts/Kanit-LightItalic.ttf'),
-        url('../fonts/Kanit-Medium.ttf');
+    src: url('../fonts/Kanit-Light.ttf');
+    src: url('../fonts/Kanit-Medium.ttf') format('woff2'),
+         url('../fonts/Kanit-ExtraLight.ttf'),
+         url('../fonts/Kanit-ExtraLightItalic.ttf'),
+         url('../fonts/Kanit-Black.ttf'),
+         url('../fonts/Kanit-LightItalic.ttf');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
-.kanit {
+/* .kanit {
     font-family: "Kanit", kanit;
     font-optical-sizing: auto;
-    font-weight: 600;
+    font-weight: 100;
     font-style: normal;
-  }
+  } */
